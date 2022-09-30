@@ -1,0 +1,122 @@
+Lista de Exercícios 1:
+(objetivo: fixar conhecimentos de declaração e atribuição de variáveis, tipos de variáveis, conceitos de entrada e saída, operações aritméticas e estruturas condicionais básicas)
+
+Escreva um programa em JS para que o usuário entre com as seguintes informações e então o sistema realiza o cálculo solicitado colocando a resposta no console conforme necessário.
+Assuma que o usuário entrará com valores válidos para cada caso.
+
+1.Entradas:
+a.Altura de um retângulo;
+b.Base de um retângulo;
+Saídas:	
+c.Área do retângulo;
+d.Informa se o retângulo é ou não é um quadrado.
+
+2.Entradas:
+a.Altura de um triângulo;
+b.Base de um triângulo;
+Saídas:
+c.Área do triângulo;	
+d.Hipotenusa (considerando que a altura e a base são os comprimentos de dois lados).
+
+3.Entradas:
+a.Raio de uma circunferência;
+Saídas:
+b.Área da circunferência;
+c.Perímetro da circunferência;
+d.Informa se a área é ou não maior que 2.
+
+4.Entradas:
+a.Um número inteiro qualquer;
+Saídas:
+b.O sucessor do número digitado;
+c.O antecessor do número digitado;
+d.Informa se o número digitado é ou não positivo.
+
+5.Entradas:
+a.Idade de uma pessoa em anos;
+Saídas:
+b.Idade em meses;
+c.Idade em dias;
+d.Informa se a pessoa é de menor ou não.
+
+6.Entradas:
+a.Temperatura em Celcius;
+Saídas:
+b.Temperatura em Fahrenheit (C = 5/9 (F – 32));
+c.Informa se a temperatura é congelante (<=0°C) ou não.
+
+7.Entradas:
+a.Temperatura em Fahrenheit;
+Saídas:
+b.Temperatura em Celcius;
+c.Informa se a temperatura é congelante (<=0°C) ou não.
+
+8.Entradas:
+a.Nota da primeira avaliação;
+b.Nota da segunda avaliação;
+c.Nota da terceira avaliação;
+Saídas:
+d.Nota média;
+e.Informa se o aluno está aprovado (<=7) ou não.
+
+9.Entradas:
+a.Número inteiro 1;
+b.Número inteiro 2;
+c.Número inteiro 3;
+Saídas:
+d.Menor número;
+e.Maior número;
+f.Informa os 3 números em ordem.
+
+
+Lista de Exercícios 2:
+(objetivo: fixar conhecimentos de operações lógicas e estruturas condicionais)
+
+Escreva um programa em JS para que o usuário entre com as seguintes informações e então o sistema realiza o cálculo solicitado colocando a resposta no console conforme necessário.
+Assuma que o usuário entrará com valores válidos para cada caso.
+
+1.Entradas:
+a.Valor lógico para o computador 1 ligado (true - 1) ou desligado (false - 0);
+b.Valor lógico para o computador 2 ligado (true - 1) ou desligado (false - 0);
+c.Valor lógico para o computador 3 ligado (true - 1) ou desligado (false - 0);
+Saídas:
+d.Informa quantos computadores estão ligados;
+e.Informa quantos computadores estão desligados.
+
+2.Entradas:
+a.Valor lógico para o computador 1 ligado (true - 1) ou desligado (false - 0);
+b.Valor lógico para o computador 2 ligado (true - 1) ou desligado (false - 0);
+c.Valor lógico para o computador 3 ligado (true - 1) ou desligado (false - 0);
+Saídas:
+d.Considerando que os computadores 1 e 2 estejam na sala A e o computador 3 esteja na sala B informe qual a sala ou salas que possuem computadores ligados.
+
+3.Considere um prédio com Subsolo, Térreo e 1º andar com 1 elevador.
+No Subsolo só há um botão para chamar o elevador (para cima) e no 1º andar só há um botão para baixo.
+No Térreo há dois botões, um para cima e outro para baixo.
+Ponderando todas as combinações possíveis e que o elevador esteja parado num determinado andar determine se o elevador deve subir ou descer:
+Entradas:
+a.Valor lógico para chamada do elevador no andar SS (true - 1) ou desligado (false - 0);
+b.Valor lógico para chamada do elevador no andar T para baixo (true - 1) ou desligado (false - 0);
+c.Valor lógico para chamada do elevador no andar T para cima (true - 1) ou desligado (false - 0);
+d.Valor lógico para chamada do elevador no andar 1 para baixo (true - 1) ou desligado (false - 0);
+e.Andar onde o elevador está parado;
+Saídas:
+f.Led (ligado ou desligado) informando se o elevador está subindo (Informe no console apenas 'Subindo: true' ou 'Subindo: false');
+g.Led (ligado ou desligado) informando se o elevador está descendo (Informe no console apenas 'Descendo: true' ou 'Descendo: false').
+
+4.Considere um prédio com Subsolo, Térreo e 1º andar com 2 elevadores.
+No Subsolo só há um botão para chamar um dos elevadores (para cima) e no 1º andar só há um botão para baixo.
+No Térreo há dois botões, um para cima e outro para baixo.
+Ponderando todas as combinações possíveis e que os elevadores estejam parados em determinados andares determine qual elevador deve subir ou descer:
+Entradas:
+a.Valor lógico para chamada do elevador no andar SS (true - 1) ou desligado (false - 0);
+b.Valor lógico para chamada do elevador no andar T para baixo (true - 1) ou desligado (false - 0);
+c.Valor lógico para chamada do elevador no andar T para cima (true - 1) ou desligado (false - 0);
+d.Valor lógico para chamada do elevador no andar 1 para baixo (true - 1) ou desligado (false - 0);
+e.Andar onde o elevador A está parado;
+f.Andar onde o elevador B está parado;
+Saídas:
+g.Led (ligado ou desligado) informando se o elevador A está subindo (Informe no console apenas 'Subindo: true' ou 'Subindo: false');
+h.Led (ligado ou desligado) informando se o elevador A está descendo (Informe no console apenas 'Descendo: true' ou 'Descendo: false');
+i.Led (ligado ou desligado) informando se o elevador B está subindo (Informe no console apenas 'Subindo: true' ou 'Subindo: false');
+j.Led (ligado ou desligado) informando se o elevador B está descendo (Informe no console apenas 'Descendo: true' ou 'Descendo: false').
